@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
+    <h1> welcome to my game!</h1>
     <ScrabbleBoard />
     </>
   );

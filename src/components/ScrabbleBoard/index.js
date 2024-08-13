@@ -47,7 +47,7 @@ const ScrabbleBoard = () => {
     useEffect(() => {
         const initialRack = Array(7).fill(null).map(() => drawTile())
         setRack(initialRack)
-    }, [])
+    }, [drawTile])
 
 
 
